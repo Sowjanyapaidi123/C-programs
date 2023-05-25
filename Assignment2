@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() {
+
+char str[20],strrev;
+
+int count=0,i,j;
+
+    printf("Enter string");
+
+    gets(str);
+
+    i=0;
+
+    while(str[i]!='\0')
+
+    {
+
+    count++;
+
+    i++;
+
+    }
+
+    for(i=count-1;i>=0;i--)
+
+    {
+
+    strrev=str[i];
+
+printf("%c",strrev);
+
+}
+
+    return 0;
+
+}
